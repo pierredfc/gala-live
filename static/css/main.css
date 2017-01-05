@@ -1,0 +1,73 @@
+body
+{
+    background-image:url('../img/background.png');
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.g-container
+{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    height:920px;
+}
+
+.g-gala
+{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    margin-top:30px;
+}
+
+.g-gala h1
+{
+    color:#E6D458;
+    line-height: 0.5rem;
+    font-size:50px;
+}
+
+.g-gala h2
+{
+    color:#FFFFFF;
+}
+
+.g-choices
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    margin-top:150px;
+}
+
+.g-choice
+{
+    margin:auto;
+    display:flex;
+    flex-flow:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.g-choice--photo
+{
+
+}
+
+.g-choice--reaction img
+{
+    width:80px;
+    margin-top:-50px;
+}
+
+.g-choice--count
+{
+    width:100%;
+    background:rgba(0,0,0,0.5);
+    text-align:center;
+    color:#E6D458;
+    font-size: 50px;
+}
