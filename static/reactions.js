@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import 'isomorphic-fetch';
+import 'babel-polyfill';
 import Promise from 'bluebird';
 
 const API_ENDPOINT = 'https://graph.facebook.com/v2.8/';
